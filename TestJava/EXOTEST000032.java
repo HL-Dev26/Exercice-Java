@@ -20,7 +20,7 @@ public class EXOTEST000032
           
 
         }
-    System.out.println(" Bravo, vous avez réussi ! ");
+    System.out.println(" Yes, you did it ! ");
         scanner.close(); 
     }
 }
