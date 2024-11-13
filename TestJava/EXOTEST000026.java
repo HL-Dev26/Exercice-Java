@@ -1,6 +1,14 @@
 import java.util.Scanner;
 
 public class EXOTEST000026 {
+            /*Exercice 2.6 : Bisextille
+
+            Ecrire un algorithme qui détermine si une année est bissextile.
+
+            Les années bissextiles sont :
+
+            les années divisibles par 4 mais non divisibles par 100
+            les années divisibles par 400.*/
 
     public static void main(String[] args) {
 

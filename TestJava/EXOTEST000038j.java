@@ -1,8 +1,8 @@
 import java.math.BigDecimal;
 import java.util.Scanner;
 
-public class EXOTEST000038j
-{
+public class EXOTEST000038j{
+
 public static void main(String[] args) throws Exception {
     Scanner scan = new Scanner(System.in);
     BigDecimal price = BigDecimal.valueOf(-1);

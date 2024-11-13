@@ -1,6 +1,14 @@
 import java.util.Scanner;
 
 public class EXOTEST000015 {
+            /*Exercice 1.5 : Calcul de la surface d’un secteur circulaire
+
+            Lire le rayon R d’un cercle et un angle A (en degré(s)).
+            Calculer et afficher :
+
+            L’ aire du secteur circulaire = (π R² A) / 360
+            */
+
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
