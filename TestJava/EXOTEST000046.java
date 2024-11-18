@@ -12,16 +12,19 @@ public class EXOTEST000046{
         Scanner sc;
         int[] tabl1;
         int[] tabl2;
-
+        int result;
+        String calcul;
+        boolean first;
+        String tous; 
 
         /* TRAITEMENT */
         System.out.println(" Somme des valeurs de 2 tableaux ");
         sc = new Scanner(System.in);
         tabl1 = new int[6];
         tabl2 = new int[2];
-        int result = 0;
-        String calcul = "";
-        boolean first = true;
+        result = 0;
+        calcul = "";
+        first = true;
 
         for (int i = 0; i < tabl1.length; i++) {
             System.out.print(" Saisir le nombre " + ( i + 1 ) + " du tableau 1 : ");
@@ -45,12 +48,12 @@ public class EXOTEST000046{
             first = false;
             }
         }
-        String tous = calcul + " = " + result;
+        tous = calcul + " = " + result;
+
+        /* AFFICHAGE RESULTAT */
         System.out.print(tous);
         sc.close();
-     } /* AFFICHAGE */
-    
-        
+     }     
     }
 
 

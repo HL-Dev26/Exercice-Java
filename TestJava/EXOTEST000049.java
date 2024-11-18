@@ -7,13 +7,17 @@ public class EXOTEST000049{
     Le programme, une fois la saisie terminée, renvoie le nombre de ces notes supérieures à la moyenne de la classe.*/
 
     public static void main(String[] args) {
+        /* VARIABLES */
         Scanner scanner;
         float [] tabl;
         float resultat;
+        int numero;
 
+         /* TRAITEMENT */
+         System.out.println(" Recherche spécifique dans un tableau ");
         scanner = new Scanner(System.in);
         System.out.print(" Saisir le nombre d'élève : ");
-        int numero = scanner.nextInt();
+        numero = scanner.nextInt();
 
         tabl = new float[numero];
         resultat = 0;  
@@ -24,7 +28,7 @@ public class EXOTEST000049{
    
         resultat = resultat + tabl[i] / tabl.length;
         }
-        
+        /* AFFICHAGE RESULTAT */
         System.out.println(" La moyenne de la classe est de : " + resultat );
         scanner.close();
     }

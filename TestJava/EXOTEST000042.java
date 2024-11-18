@@ -8,8 +8,16 @@ public class EXOTEST000042 {
             */
 
     public static void main(String[] args) {
-        String [] voyelles = { "a" , "e" , "i" , "o" , "u" , "y"};
+        /* VARIABLES */
+       
+       
+       
+        /* TRAITEMENT */
+        System.out.println(" Créer un tableau de chaines de caractères ");
+
+        String[] voyelles = { "a" , "e" , "i" , "o" , "u" , "y"};
         
+        /* AFFICHAGE RESULTAT */
         System.out.println(" Voyelles de l’alphabet latin : " + Arrays.toString(voyelles));
     }
 

@@ -9,7 +9,11 @@ public class EXOTEST000041 {
      */
 
     public static void main(String[] args) {
-        int[] tab = new int[7];
+        /* VARIABLES */
+        int[] tab;
+
+        /* TRAITEMENT */
+        tab = new int[7];
         // int [] tab1 = new int [7];
         //System.out.print("Valeurs tableau : ");
         for (int i = 0; i < tab.length; i++) {
@@ -18,6 +22,7 @@ public class EXOTEST000041 {
            // System.out.print("[" + tab[i] + "] ");
             //System.out.println("Valeur tableau[" + i + "] = [" + tab[i] + "]");
         }
+        /* AFFICHAGE RESULTAT */
         System.out.println("valeurs du tableau : " + Arrays.toString(tab));
 
     }
