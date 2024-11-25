@@ -12,6 +12,8 @@ public class EXOTEST000049{
         float [] tabl;
         float resultat;
         int numero;
+        float moyenne;
+        float Neleve;
 
          /* TRAITEMENT */
          System.out.println(" Recherche spécifique dans un tableau ");
@@ -21,15 +23,23 @@ public class EXOTEST000049{
 
         tabl = new float[numero];
         resultat = 0;  
-
+        Neleve = 0;
+        moyenne = 0;
         for (int i = 0; i < tabl.length ; i++) {
         System.out.print(" Saisir l'élève numero " + ( i + 1 ) + " avec une moyenne de : " );
         tabl[i] = scanner.nextFloat();
-   
-        resultat = resultat + tabl[i] / tabl.length;
+        resultat += tabl[i];
+        }
+
+        moyenne = resultat / tabl.length;
+
+        for (int i = 0; i < tabl.length; i++) {
+        if (tabl[i] > moyenne) {
+            Neleve++;
+            }    
         }
         /* AFFICHAGE RESULTAT */
-        System.out.println(" La moyenne de la classe est de : " + resultat );
+        System.out.println(" La moyenne de la classe est de : " + moyenne + " il y a " + Neleve + "au dessus de la moyenne");
         scanner.close();
     }
 

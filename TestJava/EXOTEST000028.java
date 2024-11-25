@@ -27,13 +27,17 @@ public class EXOTEST000028 {
 
         if (pourcentcd1 >= 50) {
             System.out.println(" Le premier candidat Elu ");
-        } else if (cd2 >= somvoix / 2 || cd3 >= somvoix / 2 || cd4 >= somvoix / 2) {
+        }
+        else if (cd2 >= somvoix / 2 || cd3 >= somvoix / 2 || cd4 >= somvoix / 2) {
             System.out.println("Un autre candidat est Elu ");
-        } else if ((pourcentcd1 >= 12.5) && (pourcentcd1 < 50) && (cd1 >= cd2 && cd1 >= cd3 && cd1 >= cd4)) {
+        }
+        else if ((pourcentcd1 >= 12.5) && (pourcentcd1 < 50) && (cd1 >= cd2 && cd1 >= cd3 && cd1 >= cd4)) {
             System.out.println(" Le premier candidat ballottage favorable ");
-        } else if ((pourcentcd1 >= 12.5) && (cd1 <= cd2 || cd1 <= cd3 || cd1 <= cd4)) {
+        }
+        else if ((pourcentcd1 >= 12.5) && (cd1 <= cd2 || cd1 <= cd3 || cd1 <= cd4)) {
             System.out.println(" Le premier candidat ballottage defavorable ");
-        } else if (pourcentcd1 < 12.5) {
+        }
+        else if (pourcentcd1 < 12.5) {
             System.out.println(" Le premier candidat à perdu");
         }
 
